@@ -1,0 +1,7 @@
+/build/classes/
+/build/generated/
+/build/libs/
+/build/reports/
+/build/test-results/
+/build/tmp/
+/.gradle/
