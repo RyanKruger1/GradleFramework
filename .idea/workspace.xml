@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee40aa31-22fe-4f64-b711-731f83f513fc" name="Default Changelist" comment="" />
+    <list default="true" id="ee40aa31-22fe-4f64-b711-731f83f513fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jenkins/jenkinsFile.ci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +29,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -33,19 +40,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1iskDvHW1wuRcRyw4QNqR00LYy9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="consents" />
   </component>
-  <component name="RunManager" selected="TestNG.TestOne.makeCall1">
+  <component name="RunManager" selected="TestNG.TestOne.makeCall3">
     <configuration name="TestOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredFramework.test" />
       <useClassPathOnly />
@@ -73,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOne.askTeslaPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOne.makeCall1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredFramework.test" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -85,7 +94,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ApiCalls" />
       <option name="MAIN_CLASS_NAME" value="ApiCalls.TestOne" />
-      <option name="METHOD_NAME" value="askTeslaPrice" />
+      <option name="METHOD_NAME" value="makeCall1" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -101,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOne.makeCall1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOne.makeCall2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredFramework.test" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -113,7 +122,35 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ApiCalls" />
       <option name="MAIN_CLASS_NAME" value="ApiCalls.TestOne" />
-      <option name="METHOD_NAME" value="makeCall1" />
+      <option name="METHOD_NAME" value="makeCall2" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne.makeCall3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework.test" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCalls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ApiCalls" />
+      <option name="MAIN_CLASS_NAME" value="ApiCalls.TestOne" />
+      <option name="METHOD_NAME" value="makeCall3" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -178,10 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestOne.makeCall3" />
+        <item itemvalue="TestNG.TestOne.makeCall2" />
         <item itemvalue="TestNG.TestOne.makeCall1" />
         <item itemvalue="TestNG.TestOne" />
         <item itemvalue="TestNG.TestOne.makeCall4" />
-        <item itemvalue="TestNG.TestOne.askTeslaPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +235,19 @@
       <option name="presentableId" value="Default" />
       <updated>1602703572671</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit initial files">
+      <created>1606902928179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606902928179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit initial files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit initial files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1480" y="96" key="#Project_Structure" timestamp="1602752711289">
@@ -210,6 +260,10 @@
     </state>
     <state x="-1506" y="15" width="1092" height="1027" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.2.1920.1040@-1920.2.1920.1040" timestamp="1602749934015" />
     <state x="414" y="174" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1602744277497" />
+    <state x="2631" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606903534317">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2631" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606903534317" />
     <state x="-1231" y="395" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602749175840">
       <screen x="-1920" y="2" width="1920" height="1040" />
     </state>
@@ -222,34 +276,34 @@
       <screen x="-1920" y="2" width="1920" height="1040" />
     </state>
     <state x="-1180" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.2.1920.1040@-1920.2.1920.1040" timestamp="1603260207930" />
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1606902445898">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1606903762521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.2.1920.1040@-1920.2.1920.1040" timestamp="1602780805739" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1602743326856" />
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606814762655" />
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606902445898" />
-    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1606902445898">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606903762521" />
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606903158818" />
+    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1606903762521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.2.1920.1040@-1920.2.1920.1040" timestamp="1602780805739" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1602743326855" />
-    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606814762655" />
-    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606902445898" />
-    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1606902445898">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606903762521" />
+    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606903158818" />
+    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1606903762520">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.2.1920.1040@-1920.2.1920.1040" timestamp="1602780805739" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1602743326855" />
-    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606814762655" />
-    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606902445898" />
-    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1606902445898">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606903762520" />
+    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606903158818" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1606903762521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.2.1920.1040@-1920.2.1920.1040" timestamp="1602780805739" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1602743326855" />
-    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606814762655" />
-    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606902445898" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606903762521" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606903158818" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602744711428">
       <screen x="-1920" y="2" width="1920" height="1040" />
     </state>
@@ -274,6 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1602741553572" />
+    <state x="2472" y="54" key="Vcs.Push.Dialog.v2" timestamp="1606902953993">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="54" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606902953993" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

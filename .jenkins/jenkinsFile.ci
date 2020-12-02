@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'a00cbd7f-5e26-42c7-a889-6986ff551b11', url: 'https://github.com/RyanKruger1/GradleFramework']]])
+            }
+        }
+        stage('runtest'){
+            steps {
+                script{
+                    bat("gradlew.bat --refresh-dependencies --no-daemon clean test -Dgroups=" + TEST_GROUP)
+                }
+            }
+        }
+    }
+}
