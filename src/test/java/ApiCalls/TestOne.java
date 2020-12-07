@@ -27,4 +27,10 @@ public class TestOne {
     {
         System.out.println("reg");
     }
+
+    @Test(groups = "corli")
+    public static void makeCallCorli()
+    {
+        System.out.println("Hello Corli");
+    }
 }
